@@ -309,6 +309,10 @@ nav {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
+	.service {
+		min-width: 200px;	
+	}
 
 	.service + .service {
 		margin-left: 2em;
