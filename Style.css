@@ -278,7 +278,7 @@ nav {
 	text-align: center;
 }
 
-.my-services a{
+.service a{
 	color : var(--clr-accent);
 	text-decoration: none;
 }
