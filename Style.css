@@ -278,6 +278,11 @@ nav {
 	text-align: center;
 }
 
+.my-services a{
+	color : inherit;
+	text-decoration: none;
+}
+
 .section__title--services {
 	color: var(--clr-accent);
 	position: relative;
