@@ -279,7 +279,7 @@ nav {
 }
 
 .my-services a{
-	color : inherit;
+	color : var(--clr-accent);
 	text-decoration: none;
 }
 
