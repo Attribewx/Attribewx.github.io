@@ -53,6 +53,12 @@ img {
 	max-width: 100%;
 }
 
+iframe {
+	display:block;
+	max-width:100%;
+	max-height:600px
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -385,6 +391,7 @@ nav {
 .portfolio {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	margin-bottom: 4em;
 }
 
 .portfolio_item {
