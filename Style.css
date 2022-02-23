@@ -403,6 +403,7 @@ nav {
 .portfolio_video {
 	max-height: 50%;
 	object-fit: cover;
+	max-width: 100%;
 }
 
 .portfolio_item:focus {
