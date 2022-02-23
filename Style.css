@@ -400,6 +400,10 @@ nav {
 	object-fit:cover;
 }
 
+.portfolio_video {
+	max-height: 50%
+}
+
 .portfolio_item:focus {
 	position: relative;
 	z-index: 2;
