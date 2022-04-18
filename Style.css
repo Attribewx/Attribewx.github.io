@@ -313,6 +313,13 @@ nav {
 	margin: 0 auto;
 }
 
+.Featured{
+	display: initial;
+	border: var(--clr-accent);
+   	border-style: solid;
+   	border-width: thick;
+}
+
 @media (min-width: 1000px) {
 	.services {
 		display:flex;
