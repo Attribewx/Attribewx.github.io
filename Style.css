@@ -110,6 +110,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title-intro {
 	font-weight: var(--fw-reg);
+	background-image: url(Wiz-Collage-copy.png);
 }
 
 .section__title-intro strong {
@@ -237,7 +238,6 @@ nav {
 
 .intro{
 	position: relative;
-	background-image: url(Wiz-Collage-copy.png);
 }
 
 .intro__img {
