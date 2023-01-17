@@ -349,6 +349,15 @@ nav {
 	box-shadow: var(--bs);
 }
 
+.about-me__img::before,
+.about-me__img::after {
+	position: absolute;
+	content: '';
+	top: 0.25rem;
+	height: 25px;
+	width: 25px;
+	background: black;
+
 @media (min-width: 700px) {
 	.about-me{
 		display: grid;
