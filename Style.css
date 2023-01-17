@@ -406,16 +406,16 @@ nav {
 	overflow: hidden;
 }
 
-.portfolio_item::before {
-	content:attr(data-tooltip);
-}
-
 .portfolio_img {
 	transition:
 		transform 750ms cubic-bezier(.5,0,.5,1),
 		opacity 250ms linear;
 	min-height: 100%;
 	object-fit:cover;
+}
+
+.portfolio_img::before {
+	content:attr(data-tooltip);
 }
 
 .portfolio_video {
