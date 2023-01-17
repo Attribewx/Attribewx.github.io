@@ -414,7 +414,7 @@ nav {
 	object-fit:cover;
 }
 
-.portfolio_img::before {
+.portfolio_img::after {
 	content:attr(data-tooltip);
 }
 
