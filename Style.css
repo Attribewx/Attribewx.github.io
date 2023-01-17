@@ -417,12 +417,15 @@ nav {
 .portfolio_img::before,
 .portfolio_img::after {
 	position: absolute;
-	content: '';
 	top: -.25rem;
+	transform: translateX(-50%) translateY(-100%);
+}
+
+.portfolio_img::before {
+	content: attr(data-tooltip);
 	height: 25px;
 	width: 25px;
 	background: black;
-	transform: translateX(-50%) translateY(-100%);
 }
 
 .portfolio_video {
