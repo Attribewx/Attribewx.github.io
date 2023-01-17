@@ -357,6 +357,7 @@ nav {
 	height: 25px;
 	width: 25px;
 	background: black;
+}
 
 @media (min-width: 700px) {
 	.about-me{
@@ -413,20 +414,6 @@ nav {
 .portfolio_item {
 	background: var(--clr-accent);
 	overflow: hidden;
-}
-
-.portfolio_item::before,
-.portfolio_item::after {
-	position: absolute;
-	top: -.25rem;
-	transform: translateX(-50%) translateY(-100%);
-}
-
-.portfolio_item::before {
-	content: attr(data-tooltip);
-	height: 25px;
-	width: 25px;
-	background: black;
 }
 
 .portfolio_img {
