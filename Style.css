@@ -445,6 +445,10 @@ nav {
 	opacity: .75;
 }
 
+.portfolio_img:hover::after {
+	content: attr(data-tooltip)
+}
+
 
 .footer {
 	background: #111;
