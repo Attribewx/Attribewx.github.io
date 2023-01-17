@@ -406,6 +406,10 @@ nav {
 	overflow: hidden;
 }
 
+.portfolio_item::before {
+	content:attr(data-tooltip);
+}
+
 .portfolio_img {
 	transition:
 		transform 750ms cubic-bezier(.5,0,.5,1),
