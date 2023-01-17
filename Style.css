@@ -347,6 +347,7 @@ nav {
 
 .about-me__img{
 	box-shadow: var(--bs);
+	position: relative;
 }
 
 .about-me__img::before,
