@@ -515,3 +515,36 @@ nav {
 .social-list__item {
 	margin: 0.5em;
 }
+
+@media (min-width: 700px) {
+	.about-me2{
+		display: grid;
+		grid-template-columns: 1fr 700px;
+		grid-template-areas:
+			"title img"
+			"subtitle img"
+			"text img";
+		grid-column-gap: 1em;
+	}
+
+
+	.section-title-about2 {
+		grid-area: title;
+	}
+
+	.section__subtitle--about2{
+		grid-column: 1/ -1;
+		grid-row: 2;
+		position: relative;
+		left: -1em;
+		width: calc(100% + 2em);
+		padding-left: 1em;
+		padding-right: calc(200px + 4em);
+	}
+
+	.about-me__img2 {
+		grid-area: img;
+		position: relative;
+		z-index: 2;
+	}
+}
