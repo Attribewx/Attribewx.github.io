@@ -531,6 +531,7 @@ nav {
 
 	.section-title-about2 {
 		grid-area: title;
+		color: var(--clr-light);
 	}
 
 	.section__subtitle--about2{
@@ -541,6 +542,10 @@ nav {
 		width: calc(100% + 2em);
 		padding-left: 1em;
 		padding-right: calc(200px + 4em);
+		color: var(--clr-light);
+	}
+
+	.section__body--body2{
 		color: var(--clr-light);
 	}
 
