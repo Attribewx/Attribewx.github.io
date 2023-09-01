@@ -518,7 +518,7 @@ nav {
 
 @media (min-width: 700px) {
 	.about-me2{
-		background-color: var(--clr-dark);
+		background-color: var(--clr-light);
 		display: grid;
 		grid-template-columns: 1fr 800px;
 		grid-template-areas:
