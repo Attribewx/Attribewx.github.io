@@ -122,7 +122,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__subtitle--intro,
-.section__subtitle--about
+.section__subtitle--about,
 .section__subtitle--about2{
 	background: var(--clr-accent);
 	font-family: var(--ff-secondary);
