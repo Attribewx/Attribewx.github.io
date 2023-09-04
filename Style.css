@@ -239,6 +239,11 @@ nav {
 	position: relative;
 }
 
+.intro2{
+	position: relative;
+	padding: 3em, 2em
+}
+
 .intro__img {
 	box-shadow: var(--bs)
 }
