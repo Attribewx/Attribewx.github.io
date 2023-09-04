@@ -585,6 +585,16 @@ nav {
 		color: var(--clr-dark);
 	}
 
+	.section__subtitle--about3{
+		grid-column: 1/ -1;
+		grid-row: 2;
+		position: relative;
+		left: -1em;
+		width: calc(100% + 2em);
+		padding-left: 40%;
+		padding-right: calc(200px + 4em);
+		color: var(--clr-dark);
+	}
 	.about-me__body2{
 		color: var(--clr-light);
 	}
