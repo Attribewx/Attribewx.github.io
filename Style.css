@@ -278,6 +278,18 @@ nav {
 	}
 }
 
+@media (min-width: 700px) {
+	.intro2 {
+		display: grid;
+		width: min-content;
+		margin: 0 auto;
+		grid-column-gap: 1em;
+		grid-template-areas:
+			"img title"
+			"img subtitle";
+		grid-template-columns: min-content max-content;
+	}
+}
 
 
 .my-services {
