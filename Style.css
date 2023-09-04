@@ -538,7 +538,7 @@ nav {
 	.about-me2{
 		background-color: var(--clr-dark);
 		display: grid;
-		grid-template-columns: 1fr 800px;
+		grid-template-columns: 1fr 1fr;
 		grid-template-areas:
 			"title img"
 			"subtitle img"
