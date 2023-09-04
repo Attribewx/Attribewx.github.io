@@ -303,7 +303,7 @@ nav {
 	text-align: center;
 }
 
-.service a{
+.page-link{
 	color : var(--clr-accent);
 	text-decoration: none;
 }
