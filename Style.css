@@ -539,7 +539,7 @@ nav {
 		background-color: var(--clr-dark);
 		display: grid;
 		grid-template-columns: 1fr .5fr;
-		grid-template-rows: .2fr .2fr
+		grid-template-rows: .2fr .2fr;
 		grid-template-areas:
 			"title img"
 			"subtitle img"
@@ -551,7 +551,7 @@ nav {
 		background-color: var(--clr-dark);
 		display: grid;
 		grid-template-columns: .5fr 1fr;
-		grid-template-rows: .2fr .2fr
+		grid-template-rows: .2fr .2fr;
 		grid-template-areas:
 			"img title"
 			"img subtitle"
