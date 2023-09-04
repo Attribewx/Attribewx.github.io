@@ -547,6 +547,18 @@ nav {
 		grid-column-gap: 1em;
 	}
 
+	.about-me3{
+		background-color: var(--clr-dark);
+		display: grid;
+		grid-template-columns: .5fr 1fr;
+		grid-template-rows: .2fr .2fr
+		grid-template-areas:
+			"img title"
+			"img subtitle"
+			"img text";
+		grid-column-gap: 1em;
+	}
+
 
 	.section-title-about2 {
 		grid-area: title;
