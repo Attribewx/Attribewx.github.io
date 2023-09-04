@@ -308,6 +308,10 @@ nav {
 	text-decoration: none;
 }
 
+.page-link:hover{
+	text-decoration: underline;
+}
+
 .section__title--services {
 	color: var(--clr-accent);
 	position: relative;
