@@ -122,7 +122,8 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--about
+.section__subtitle--about2{
 	background: var(--clr-accent);
 	font-family: var(--ff-secondary);
 	padding: .25em;
@@ -556,7 +557,6 @@ nav {
 	}
 
 	.section__subtitle--about2{
-		font-family: var(--ff-primary);
 		grid-column: 1/ -1;
 		grid-row: 2;
 		position: relative;
