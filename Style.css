@@ -534,6 +534,10 @@ nav {
 		color: var(--clr-light);
 	}
 
+	.section-paragraph-about2 {
+		padding: 1em;
+	}
+
 	.section__subtitle--about2{
 		grid-column: 1/ -1;
 		grid-row: 2;
