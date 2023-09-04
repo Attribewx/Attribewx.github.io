@@ -556,7 +556,7 @@ nav {
 	}
 
 	.section__subtitle--about2{
-		--ff-primary: 'Source Sans Pro', sans-serif;
+		font-family: var(--ff-primary);
 		grid-column: 1/ -1;
 		grid-row: 2;
 		position: relative;
