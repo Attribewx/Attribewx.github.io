@@ -570,7 +570,8 @@ nav {
 	}
 
 	.section-paragraph-about2 {
-		padding: 1em;
+		padding-top: .8em;
+		padding-bottom: .8em;
 	}
 
 	.section__subtitle--about2{
