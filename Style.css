@@ -589,4 +589,9 @@ nav {
 		z-index: 2;
 		max-height: 125%;
 	}
+
+	.flavor-text {
+		font-size: var(--fs-h3);
+		font-family: var(--ff-secondary);
+	}
 }
