@@ -609,6 +609,7 @@ nav {
 		position: relative;
 		z-index: 2;
 		max-height: 120%;
+		border-radius: 5%;
 	}
 
 	.flavor-text {
