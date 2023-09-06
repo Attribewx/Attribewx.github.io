@@ -594,7 +594,7 @@ nav {
 		position: relative;
 		left: -1em;
 		width: calc(100% + 2em);
-		padding-left: 36%;
+		padding-left: 40%;
 		padding-right: calc(200px + 4em);
 		color: var(--clr-dark);
 		font-weight: var(--fw-bold);
