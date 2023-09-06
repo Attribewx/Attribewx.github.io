@@ -543,7 +543,7 @@ nav {
 	.about-me2{
 		background-color: var(--clr-dark);
 		display: grid;
-		grid-template-columns: 1fr .5fr;
+		grid-template-columns: 1fr .6fr;
 		grid-template-rows: .2fr .2fr;
 		grid-template-areas:
 			"title img"
@@ -555,7 +555,7 @@ nav {
 	.about-me3{
 		background-color: var(--clr-dark);
 		display: grid;
-		grid-template-columns: .5fr 1fr;
+		grid-template-columns: .6fr 1fr;
 		grid-template-rows: .2fr .2fr;
 		grid-template-areas:
 			"img title"
