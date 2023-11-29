@@ -17,5 +17,5 @@ function addAnimation() {
       duplicatedItem.setAttribute('aria-hidden', true);
       scrollerInner.appendChild(duplicatedItem);
     });
-  }
+  });
 }
