@@ -622,6 +622,6 @@ nav {
 		grid-auto-flow: column;
 		grid-auto-columns: 21%;
 
-		overflow-x:
+		overflow-x: auto;
 	}
 }
