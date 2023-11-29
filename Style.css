@@ -618,6 +618,7 @@ nav {
 	}
 
 	.media-scroller {
+		background-color: var(--clr-dark);
 		display: grid;
 		gap: 1rem;
 		grid-auto-flow: column;
