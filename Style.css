@@ -656,6 +656,7 @@ nav {
 
 	.scroller[data-animated="true"] .scroller__inner {
 		flex-wrap: nowrap;
+		animation: scroll 20s linear;
 	}
 
 	@keyframes scroll {
