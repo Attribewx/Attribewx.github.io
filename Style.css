@@ -661,7 +661,7 @@ nav {
 
 	@keyframes scroll {
 		to{
-			transform: translate(100%);
+			transform: translate(-100%);
 		}
 	}
 	
