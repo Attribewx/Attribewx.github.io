@@ -625,4 +625,13 @@ nav {
 
 		overflow-x: auto;
 	}
+
+	.media-element {
+		display: grid;
+		grid-template-rows: min-content;
+		gap: 1rem;
+		padding: 1rem;
+		background: var(--clr-accent);
+		border-radius: 1rem;
+	}
 }
