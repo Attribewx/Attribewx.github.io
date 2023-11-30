@@ -638,6 +638,7 @@ nav {
 
 	.scroller {
 		max-width: 600px;
+		margin: auto;
 	}
 
 	.scroller__inner {
