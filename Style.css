@@ -658,7 +658,7 @@ nav {
 	.scroller[data-animated="true"] .scroller__inner {
 		width: max-content;
 		flex-wrap: nowrap;
-		animation: scroll 30s linear infinite;
+		animation: scroll 45s linear infinite;
 	}
 
 	@keyframes scroll {
@@ -668,7 +668,8 @@ nav {
 	}
 
 	.game-cover {
-		max-height: 300px;
+		max-height: 400px;
+		min-height: 400px;
 		object-fit: contain;
 	}
 }
