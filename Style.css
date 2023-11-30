@@ -625,6 +625,7 @@ nav {
 		grid-auto-columns: 21%;
 
 		overflow-x: auto;
+		padding: 2rem;
 	}
 
 	.media-element {
