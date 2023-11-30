@@ -666,5 +666,9 @@ nav {
 			transform: translate(calc(-50% - 0.5rem));
 		}
 	}
-	
+
+	.game-cover {
+		max-height: 200px;
+		object-fit: contain;
+	}
 }
