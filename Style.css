@@ -642,6 +642,10 @@ nav {
 		max-height: 400px;
 		min-width: 100%
 	}
+
+	.title {
+		margin: auto;
+	}
 	
 	.scroller {
 		max-width: 900px;
