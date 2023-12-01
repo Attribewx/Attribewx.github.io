@@ -622,7 +622,7 @@ nav {
 		display: grid;
 		gap: 1rem;
 		grid-auto-flow: column;
-		grid-auto-columns: 18rem;
+		grid-auto-columns: 20rem;
 
 		overflow-x: auto;
 		padding: 2rem;
