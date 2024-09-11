@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="This is the Description">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cuyler's Portfolio Website</title>
+		<script src="https://kit.fontawesome.com/bd060b2082.js" crossorigin="anonymous"></script>
+		<link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		<link rel="Stylesheet" href="Style.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="Stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="logo">
+				<a href="https://attribewx.github.io/index">
+					<img src="Logo3.jpg" id="logo" alt="">
+				</a>
+			</div> 
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger" id="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="https://attribewx.github.io/index" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+					<li class="nav__item"><a href="https://attribewx.github.io/GameDeveloper" class="nav__link">Game Development</a></li>
+					<li class="nav__item"><a href="https://attribewx.github.io/Gamer" class="nav__link">Gamer</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+
+
+		<section class="intro2" id="home">
+			<h1 class="section__title section__title-intro">
+				Hi, I am <strong> Cuyler Lorenzana</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">Graphic Designer / Animator / Artist</p>
+			<img src="CuyOfKells.png" alt="a picture of Cuyler Lorenzana" class="intro__img">
+		</section>
+
+		<section class="my-work" id="work">
+			<p class="section__subtitle section__subtitle--work">Resume</p>
+			<iframe src="CuylerLorenzana.pdf" width=70% height=500px></iframe>
+		</section>
+
+
+		<footer class="footer">
+			<a href="mailto:cuylerlorenzana1@gmail.com" class="footer__link">cuylerlorenzana1@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" target="_blank" href="https://twitter.com/amBewx">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" target="_blank" href="https://www.youtube.com/channel/UCUb5dxFqgo2O0CKN4TbFAUA">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" target="_blank" href="https://github.com/Attribewx">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="index.js"></script>
+
+		<script>
+
+			let hamburger = document.getElementById('logo');
+
+			window.addEventListener('scroll', function(){
+				let value = window.scrollY;
+				hamburger.style.borderRadius = value * .1 + 'px'; 
+			})
+		</script>
+		
+	</body>
+</html>
