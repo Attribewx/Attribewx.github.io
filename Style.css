@@ -683,4 +683,10 @@ nav {
 		min-height: 400px;
 		object-fit: contain;
 	}
+
+	.resume {
+		max-height: 2000px;
+		height: 1300px;
+		width: 100%;
+	}
 }
