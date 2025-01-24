@@ -689,4 +689,9 @@ nav {
 		height: 1300px;
 		width: 100%;
 	}
+
+	.level-design__img{
+		min-height: 600px;
+		min-width: 500px;
+	}
 }
