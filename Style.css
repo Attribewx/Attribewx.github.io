@@ -691,6 +691,11 @@ nav {
 	}
 
 	.level-design__img{
+		grid-area: img;
+		position: relative;
+		z-index: 2;
+		max-height: 120%;
+		border-radius: 5%;
 		min-height: 600px;
 		min-width: 500px;
 	}
